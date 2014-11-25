@@ -1,6 +1,6 @@
 {
   "name": "gulp-js2coffee",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "gulp plugin to convert js to coffee",
   "main": "index.js",
   "scripts": {
