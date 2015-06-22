@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/hemanth/gulp-js2coffee",
   "dependencies": {
-    "gulp-util": "~3.0.1",
-    "event-stream": "~3.1.7",
+    "gulp-util": "~3.0.5",
+    "event-stream": "~3.3.1",
     "map-stream": "0.0.5",
-    "js2coffee": "~0.3.3"
+    "js2coffee": "~2.0.4"
   },
   "devDependencies": {
     "mocha": "*"
