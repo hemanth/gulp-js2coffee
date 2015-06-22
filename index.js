@@ -14,7 +14,7 @@ module.exports = function(opt){
 
     var str = file.contents.toString('utf8');
 
-    file.contents = new Buffer(js2coffee.build(str,opt));
+    file.contents = new Buffer(js2coffee.build(str, opt).code);
     file.path = gutil.replaceExtension(file.path, ".coffee");
     this.emit('data', file);
   }
