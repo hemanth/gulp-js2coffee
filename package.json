@@ -30,6 +30,6 @@
     "js2coffee": "~0.3.3"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "3.3.0"
   }
 }
